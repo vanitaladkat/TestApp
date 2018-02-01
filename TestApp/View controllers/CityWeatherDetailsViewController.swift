@@ -39,6 +39,10 @@ class CityWeatherDetailsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    deinit {
+        print("city deinit")
+    }
+    
     //MARK:- initialization
     public func initializeViewModel(_ viewModel: CityWeatherDetailsViewModel) {
         self.viewModel = viewModel

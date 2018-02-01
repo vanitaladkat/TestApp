@@ -7,5 +7,6 @@ target 'TestApp' do
 
   # Pods for TestApp
   pod 'AlamofireObjectMapper', '~> 5.0'
-
+  pod 'Firebase/Core'
+  pod 'AYVibrantButton'
 end
